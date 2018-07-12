@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Coding challenge</title>
+</head>
+<body>
+    <div style="padding: 0em 20em">
+        <h2 style="padding-left: 1em">Coding challenge</h2>
+        <ol>
+            <% posts.forEach((post) => { %>
+            <li>
+                <ul>
+                    <li style="font-size: 16px; color:#3cb371;"><%= post.title %></li>
+                    <li style="font-size: 12px; color:#4A4A4A;"><%= post.body %></li>
+                </ul>
+            </li>
+            <% }); %>
+        </ol>
+    </div>
+</body>
+</html>
